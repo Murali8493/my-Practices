@@ -6,6 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -14,8 +16,14 @@ public class OpenLambdatest {
 	  WebDriver driver;
 	    @BeforeTest
 	    void setup() {
+	    	ChromeOptions options = new ChromeOptions();
+	    	options.addArguments("--no-sandbox"); //Bypass OS security model   
+	    	options.addArguments("--start-maximized");
+	    	options.addArguments("--disable-dev-shm-usage");
+	   // 	options.addArguments("--headless");
 	        WebDriverManager.chromedriver().setup();
-	        driver = new ChromeDriver();
+	        
+	        driver = new ChromeDriver(options);
 	    }
 	 
 	    
