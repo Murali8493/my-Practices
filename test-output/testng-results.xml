@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-06T15:10:25 IST" name="Default suite" finished-at="2023-05-06T15:10:41 IST" duration-ms="15985">
+    <groups>
+    </groups>
+    <test started-at="2023-05-06T15:10:25 IST" name="Default test" finished-at="2023-05-06T15:10:41 IST" duration-ms="15985">
+      <class name="com.java.testNG.OpenLambdatest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.java.testNG.OpenLambdatest@3c7f66c4]" started-at="2023-05-06T15:10:25 IST" name="setup" finished-at="2023-05-06T15:10:36 IST" duration-ms="10940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTheUrl()[pri:0, instance:com.java.testNG.OpenLambdatest@3c7f66c4]" started-at="2023-05-06T15:10:36 IST" name="checkTheUrl" finished-at="2023-05-06T15:10:40 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.java.testNG.OpenLambdatest@3c7f66c4]" started-at="2023-05-06T15:10:40 IST" name="teardown" finished-at="2023-05-06T15:10:41 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.java.testNG.OpenLambdatest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
