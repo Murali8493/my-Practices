@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-06T17:57:27 IST" name="Lambdasuite" finished-at="2023-05-06T17:57:37 IST" duration-ms="10254">
+  <suite started-at="2023-05-06T19:43:03 IST" name="Lambdasuite" finished-at="2023-05-06T19:43:13 IST" duration-ms="9682">
     <groups>
     </groups>
-    <test started-at="2023-05-06T17:57:27 IST" name="Lambdatest" finished-at="2023-05-06T17:57:37 IST" duration-ms="10254">
+    <test started-at="2023-05-06T19:43:03 IST" name="Lambdatest" finished-at="2023-05-06T19:43:13 IST" duration-ms="9682">
       <class name="com.java.testNG.OpenLambdatest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.java.testNG.OpenLambdatest@4d9e68d0]" started-at="2023-05-06T17:57:27 IST" name="setup" finished-at="2023-05-06T17:57:31 IST" duration-ms="4310" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.java.testNG.OpenLambdatest@771a660]" started-at="2023-05-06T19:43:03 IST" name="setup" finished-at="2023-05-06T19:43:09 IST" duration-ms="5472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheUrl()[pri:0, instance:com.java.testNG.OpenLambdatest@4d9e68d0]" started-at="2023-05-06T17:57:31 IST" name="checkTheUrl" finished-at="2023-05-06T17:57:37 IST" duration-ms="5429" status="PASS">
+        <test-method signature="checkTheUrl()[pri:0, instance:com.java.testNG.OpenLambdatest@771a660]" started-at="2023-05-06T19:43:09 IST" name="checkTheUrl" finished-at="2023-05-06T19:43:12 IST" duration-ms="3728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTheUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.java.testNG.OpenLambdatest@4d9e68d0]" started-at="2023-05-06T17:57:37 IST" name="teardown" finished-at="2023-05-06T17:57:37 IST" duration-ms="458" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.java.testNG.OpenLambdatest@771a660]" started-at="2023-05-06T19:43:12 IST" name="teardown" finished-at="2023-05-06T19:43:13 IST" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
